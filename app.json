@@ -3,7 +3,7 @@
     "name": "DoneWithIt",
     "slug": "DoneWithIt",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -22,6 +22,17 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bab20d6d-e6c3-4c3d-9c94-3f4ff7ec46ed"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bab20d6d-e6c3-4c3d-9c94-3f4ff7ec46ed"
     }
   }
 }
